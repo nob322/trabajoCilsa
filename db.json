@@ -1,0 +1,325 @@
+{
+  "usuarios":[
+    {
+      "nombre": "David",
+      "apellido": "Sanchez",
+      "usuario": "user7",
+      "password" : "user7",
+      "domicilioCalle" : "Laprida",
+      "domicilioNumero" : "1421",
+      "codigoPostal" : "2000",
+      "telefono" : "3416206569",
+      "email" : "nob32_2@hotmail.com",
+      "fechaNacimiento" : "18/3/1989",
+      "sexo" : "M",
+      "nroHijos" : "No",
+      "idCuentaBancaria":"116502341555777",
+      "estado":"Activo",
+      "saldo":150000,
+      "limite":30000
+    }
+  ],
+    "tarjetas":[     
+        {
+          "tipo":"Visa",
+          "moneda":"ARS",
+          "nroTarjeta":"1111265824443778",
+          "fechaAfiliacion":"03/2020",
+          "fechaCaducidad":"07/2025"
+        },
+        {
+          "tipo":"Mastercard",
+          "moneda":"ARS",
+          "nroTarjeta":"5677777587451764",
+          "fechaAfiliacion":"04/2020",
+          "fechaCaducidad":"08/2025"
+        }
+      ],
+    "movimientos": [
+        {
+          "id": 1,
+          "fecha": "20/05/2021",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "1500,00", 
+          "credito": "0,00",
+          "comprobante":"77589632",
+          "saldo parcial": "9000,00"
+        },
+        {
+          "id": 2,
+          "fecha": "17/05/2021",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "300,00", 
+          "credito": "0,00",
+          "comprobante":"77234156",
+          "saldo parcial": "700,00"
+        },
+        {
+          "id": 3,
+          "fecha": "20/06/2016",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "0", 
+          "credito": "1.000,00", 
+          "comprobante":"78541236",
+          "saldo parcial": "1700,00"
+        },
+        {
+          "id": 4,
+          "fecha": "12/11/2016",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": ",00", 
+          "credito": "5000,00",
+          "comprobante":"15486323", 
+          "saldo parcial": "7000,00"
+        },
+        {
+          "id": 5,
+          "fecha": "17/04/2016",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "560,00", 
+          "credito": "0,00", 
+          "comprobante":"1234875",
+          "saldo parcial": "2563,42"
+        },
+        {
+          "id": 6,
+          "fecha": "189/03/2017",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "1000,00", 
+          "credito": "0,00",
+          "comprobante":"21542364",
+          "saldo parcial": "6300,15"
+        },
+        {
+          "id": 7,
+          "fecha": "14/07/2012",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "3400,00", 
+          "credito": "0,00",
+          "comprobante":"78563269",
+          "saldo parcial": "16000,00"
+        },
+        {
+          "id": 8,
+          "fecha": "18/04/2019",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "12000,00", 
+          "credito": "0,00",
+          "comprobante":"1234875",
+          "saldo parcial": "25000,00"
+        },
+        {
+          "id": 9,
+          "fecha": "17/03/2017",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "5000,00", 
+          "credito": "0,00",
+          "comprobante":"65984512",
+          "saldo parcial": "4856,00"
+        },
+        {
+          "id": 10,
+          "fecha": "12/05/2020",
+          "titulo": "Compra Por Mercado Libre",
+          "descripcion": "Productos varios",
+          "debito": "315", 
+          "credito": "0,00",
+          "comprobante":"11356487",
+          "saldo parcial": "5000,00"
+        },
+        {
+          "id": 11,
+          "fecha": "03/02/2019",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "DIREC TV.COM8009666546 ID342342212-8/55",
+          "debito": "8512,40", 
+          "credito": "0,00",
+          "comprobante":"12457845",
+          "saldo parcial": "9000,00"
+        },
+        {
+          "id": 12,
+          "fecha": "04/08/2018",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "NETFLIX",
+          "debito": "856,00", 
+          "credito": "0,00",
+          "comprobante":"53626598",
+          "saldo parcial": "6230,00"
+        },
+        {
+          "id": 13,
+          "fecha": "09/06/2012",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "La Pipa Rest-Bar 777777 1/05 MD",
+          "debito": "3542,12", 
+          "credito": "0,00",
+          "comprobante":"13265985",
+          "saldo parcial": "7800,00"
+        },
+        {
+          "id": 14,
+          "fecha": "07/03/2015",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": " NETFLIX.COM",
+          "debito": "563,00", 
+          "credito": "0,00",
+          "comprobante":"236598654",
+          "saldo parcial": "9809,00"
+        },
+        {
+          "id": 15,
+          "fecha": "12/11/2015",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "BANCO NUEVO ROSARIO SEGURO 1404173000000-002-085",
+          "debito": "780,00", 
+          "credito": "0,00",
+          "comprobante":"23569856",
+          "saldo parcial": "6533,00"
+        },
+        {
+          "id": 16,
+          "fecha": "28/10/2016",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "BALANCEADOS DEL MERCADO SA",
+          "debito": "3710,00", 
+          "credito": "0,00",
+          "comprobante":"23659865",
+          "saldo parcial": "12300,00"
+        },
+        {
+          "id": 17,
+          "fecha": "09/04/2016",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "WALMART.COM80092315612 ID35421511-8/87",
+          "debito": "5622,00", 
+          "credito": "0,00",
+          "comprobante":"23477458",
+          "saldo parcial": "6000,00"
+        },
+        {
+          "id": 18,
+          "fecha": "16/11/2018",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "WALMART.COM8009123341 ID215481241-7/98",
+          "debito": "4503,70", 
+          "credito": "0,00",
+          "comprobante":"23569856",
+          "saldo parcial": "9000,00"
+        },
+        {
+          "id": 19,
+          "fecha": "14/01/2013",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "WALMART.COM800658971 ID342315124-8/98",
+          "debito": "3588,43", 
+          "credito": "0,00",
+          "comprobante":"235669568",
+          "saldo parcial": "7540,00"
+        },
+        {
+          "id": 20,
+          "fecha": "24/10/2020",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": " GOOGLE *Supercell",
+          "debito": "560,00", 
+          "credito": "0,00",
+          "comprobante":"11255487",
+          "saldo parcial": "4800,00"
+        },
+        {
+          "id": 21,
+          "fecha": "31/05/2019",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": " TELECENTRO SA 00000000393646",
+          "debito": "2500,00", 
+          "credito": "0,00",
+          "comprobante":"33652354", 
+          "saldo parcial": "6000,00"
+        },
+        {
+          "id": 22,
+          "fecha": "08/07/2013",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "WWW.ARBA.GOV.AR 2156412341 21 ",
+          "debito": "100,00", 
+          "credito": "0,00",
+          "comprobante":"23659851",
+          "saldo parcial": "1000,00"
+        },
+        {
+          "id": 23,
+          "fecha": "29/03/2015",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "WWW.MERCADOPAGO.COM  0240201 BAZAR CORONA",
+          "debito": "6100,00", 
+          "credito": "0,00",
+          "comprobante":"87452369",
+          "saldo parcial": "1000,00"
+        },
+        {
+          "id": 24,
+          "fecha": "19/08/2018",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": " ATM 0306573700000- IF ",
+          "debito": "1800,00", 
+          "credito": "0,00",
+          "comprobante":"23568457",
+          "saldo parcial": "7500,00"
+        },
+        {
+          "id": 25,
+          "fecha": "12/07/2014",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "GYM Cuota 12/7 M24234",
+          "debito": "900,00", 
+          "credito": "0,00",
+          "comprobante":"23659865", 
+          "saldo parcial": "5100,00"
+        },
+        {
+          "id": 26,
+          "fecha": "02/12/2016",
+          "titulo": "Deb. Autom. De Serv.",
+          "descripcion": "DISNEY+ PLAN CUOTA 3 34324/88",
+          "debito": "560,00", 
+          "credito": "0,00",
+          "comprobante":"23569856",
+          "saldo parcial": "9000,00"
+        }
+          
+    ],
+    "transferencias":[
+          {
+            "nombre": "David",
+            "apellido": "Tolosa",
+            "dni": "29356887",
+            "numero_cuenta": "987764831547888",
+            "cbu": "7777542563259885455777",
+            "monto": 36000
+         } 
+    ],
+    "datos_de_acceso":[
+      {
+        "fecha": "23/07/2021",
+        "hora": "19:44:32",
+        "longitud": "-32.947937",
+        "latitud": "-60.629791"
+     },
+     {
+      "fecha": "17/04/2021",
+      "hora": "18:30:03",
+      "longitud": "-32.946906",
+      "latitud": "-60.633498"
+   } 
+]
+}

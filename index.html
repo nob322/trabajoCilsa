@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconos/account_balance.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Banco AR</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" class="img-fluid">  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li>
+                      <a href="#" class="nav-link">Dudas Frecuentes</a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">Seguridad</a>
+                    </li>
+                  <li>
+                      <a href="#" class="nav-link">Nosotros</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/internet.jpg" class="d-block w-100" alt=".sad.">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Operaciones garantizadas</h5>
+                  <p>Nuestros servidores están protegidos contra hackers, en caso de problemas respondemos frente a usted, nuestra conectividad y operatividad de nuestros sistemas es del 99% del tiempo!.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Robo-cajeros-automaticos-7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Un cajero por barrio</h5>
+                  <p>Somos el únido banco del país en poder garantizar puntos cercanos para extraer dinero.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/turno.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Atención rápida</h5>
+                  <p>Obtenga una tarjeta de clientes especiales y podrá ser atendido sin espera en todas nuestras sucursales.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+<div class="container pt-5 pb-5">
+  <h2 class="text-center">Su cuenta</h2>
+<div class="row">
+  <h6>Accedé a una cuenta en pesos totalmente gratuita! Sin comisiones
+  ni cargos de apertura, mantenimiento, consultas de saldos ni
+  extracciones por cajero automático.</h6>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div id="contenedor" class="border border-2 rounded border-success container"> 
+      <h4 class="text-center">Logueo</h4>
+      <section id="main">
+          <div id="login">
+                  <form action="" id="formulario__login" >
+                      <div id="form__input-usuario">
+                          <div id="etiquetas__usuario">
+                              <div hidden = true id="error_usuario"><p class="text-center">Error de usuario</p> </div>
+                          </div>
+                          <div class="input-icono">
+                              <input type="text" name="input" placeholder="Usuario" id="inputUsuario">
+                          </div>
+                      </div>
+                      <div id="form__boton-enviar" class="mt-2 mb-3">
+                         <button type="submit" id="btnUsuario" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="Ingrese a su cuenta" >Entrar</button>
+                      </div>
+                  </form>
+          </div>
+      </section>
+      <div>
+        <img src="img/34.jpg" alt="" class="mt-2 mb-3 img-fluid"> 
+      </div>
+  </div> 
+  </div>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="border border-2 rounded border-success">
+      <h4 class="text-center">
+        Hazte cliente con la Cuenta Online Sin Comisiones
+      </h4>
+      <ul class="text-left text-black">
+        <li>Sin comisión de administración y mantenimiento de la cuenta.</li>
+        <li>Sin comisión por emisión y administración de la tarjeta de débito.</li>
+        <li>Sin comisión por retirar efectivo a débito en todos los cajeros del país.</li>
+        <li>Sin comisión por transferencias online en el Espacio Económico provincial.</li>
+        <li>Ábrela en menos de 10 minutos.</li>
+        <li>Alta seguridad contra hackers garantizada.</li>
+        <li>Seguro de robo en cajeros automáticos sin costo para usted.</li>
+      </ul>
+      <div class="container">
+        <button type="submit" class="btn btn-success mt-2 mb-3 text-center" data-bs-toggle="tooltip" data-bs-placement="right" title="Obtenga su cuenta ya!">Abrír cuenta ahora</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="border border-2 rounded border-success" >
+      <h4 class="text-center">Tarjetas, Mastercard y Visa. Mayor seguridad, mayor control</h4>
+      <ul class="text-left text-black">
+        <li>Más segura. Ni el número de la tarjeta ni el código CVV están ya impresos sobre ella.</li>
+        <li>CVV dinámico. El código de seguridad CVV cambia automáticamente, de manera que no es el mismo siempre.</li>
+        <li>Más control. Apaga y enciende temporalmente tus tarjetas cuando quieras. Así las mantendrás seguras si no las encuentras o no las utilizas.</li>
+        <li>Permiso internacional de uso automático.</li>
+        <li>Sin dinero en su cuenta obtenga créditos sin intereses en sus tarjetas.</li>
+      </ul>
+      <div class="container">
+        <button type="submit" class="btn btn-success mt-2 mb-3 text-center" data-bs-toggle="tooltip" data-bs-placement="right" title="Basta de perder tiempo, haga click y tramite su tarjeta">Obtener tarjetas</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="pt-5 pb-5 bg-success">
+<div class="container">
+  <h2 class="text-center text-white">Contacte con nosotros</h2>
+<div class="row">
+  <span>
+    <h5 class="text-center text-white">0800 999 9999</h5> 
+    <p class="text-center text-white"> 
+      Contactanos. Estamos listos para responder a cualquier consulta que tengas.
+    </p> 
+  </span>
+</div>
+</div> 
+</div>
+<div class="container pt-5 pb-5">
+  <h2 class="text-center">Testimonios</h2>
+<div class="row justify-content-center align-self-center">
+  <h6 class="text-center">Queremos compartir con usted algunos comentarios de nuestros clientes.</h6>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="card">
+      <img src="img/testi/te6.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Eduardo Tolosa</h5>
+        <p class="card-text">Necesitaba confiar en un banco y encontré Banco Ar.</p>
+        <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="Puedes escribirme a mis redes sociales" >Más sobre mí</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="card">
+      <img src="img/testi/te5.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Federico Torres</h5>
+        <p class="card-text">Muchas gracias, realmente me gusta este banco.</p>
+        <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="Puedes escribirme a mis redes sociales">Más sobre mí</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="card">
+      <img src="img/testi/te4.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ariel Gaspar</h5>
+        <p class="card-text">Banco Ar es lo mejor de lo mejor, siempre funciona.</p>
+        <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="Puedes escribirme a mis redes sociales">Más sobre mí</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="card">
+      <img src="img/testi/te1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Simona Sanz</h5>
+        <p class="card-text">Gracias a Banco Ar ahora mi empresa puede operar con más beneficios.</p>
+        <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="Puedes escribirme a mis redes sociales">Más sobre mí</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="card">
+      <img src="img/testi/te2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Derixa Till</h5>
+        <p class="card-text">Le dije a todos mis amigos que vengan a Banco Ar, simplemente es fantástico.</p>
+        <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="Puedes escribirme a mis redes sociales">Más sobre mí</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 p-2 mt-1 mb-1">
+    <div class="card">
+      <img src="img/testi/te3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Yonatan Fernadez</h5>
+        <p class="card-text">Tuve muchos problemas con mi banco anterior, ahora en Banco Ar todo está ok.</p>
+        <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" title="Puedes escribirme a mis redes sociales">Más sobre mí</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <footer class="bg-success">
+        <div class="container">
+            <div class="row justify-content-center align-self-center">
+               <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 pt-2 pb-2 ">     
+                      <img src="img/clientes.png" alt="" class=" img-fluid rounded float-start">
+                      <img src="img/digiSeguridad.png" alt="as" class=" img-fluid rounded float-end">
+                      <p class="fs-6 text-center text-white pt-2">© Copyright 2021. BANCO AR</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+    <script src="js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
