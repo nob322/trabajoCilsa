@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../iconos/account_balance.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Ayuda</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="logo" class="img-fluid">  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="../paginas/home.html">Principal</a>
+                  </li>
+                    <li><a href="../paginas/resumen.html"  class="nav-link active">Resumen</a></li>
+                    <li><a href="../paginas/transferencias.html"  class="nav-link">Transferencias</a></li>
+                    <div class="datos__usuario d-flex flex-row flex-nowrap" id="contenedor_datos_usuarios">
+                       <li><a href="" class="nav-link active"> <div class="d-flex flex-row flex-nowrap">
+                            <p class="etiqueta_datos">|&nbsp;Usuario:&nbsp; </p>
+                            <p id="nombre__usuario" class="valor_datos"></p>
+                        </div></a></li>
+                        <li><a href="" class="nav-link active"> <div class="contenedor_item_datos d-flex flex-row flex-nowrap">
+                            <p class="etiqueta_datos">|&nbsp;N° Cuenta:&nbsp; </p>
+                            <p id="idcuenta__usuario" class="valor_datos"></p>
+                        </div></a></li>
+                        <li><a href="" class="nav-link active"> <div class="contenedor_item_datos d-flex flex-row flex-nowrap">
+                            <p class="etiqueta_datos">|&nbsp;Saldo:&nbsp; </p>
+                            <p id="saldo__usuario" class="valor_datos"></p>
+                        </div></a></li>
+                    </div>
+                    <div id="contenedor__info-user" style="display:inline-flex;">
+                        <div id="imagen__nav"> 
+                            <div id="cerrarSession">
+                              <button type="button" class="btn btn-light" id="imagen_cerrar_sesion">  <a href="#"  style="text-decoration:none;color: black;">Cerrar sesión</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="seccion_principal">
+        <p id="mensaje">Seccion en  construccion</p>
+        <img id="imagen__ayuda" src="../img/ayuda.png" alt="">
+    </div>
+    <footer class="bg-success">
+        <div class="container">
+            <div class="row justify-content-center align-self-center">
+               <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 pt-2 pb-2 ">     
+                      <img src="../img/clientes.png" alt="" class=" img-fluid rounded float-start">
+                      <img src="../img/digiSeguridad.png" alt="as" class=" img-fluid rounded float-end">
+                      <p class="fs-6 text-center text-white pt-2">© Copyright 2021. BANCO AR</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="ayuda.js"></script>
+    <script src="../js/completarCampos.js"></script>
+    <script src="../js/logout.js"></script>
+    <script src="../js/logout.js"></script>
+    <script>
+        const cerrar_sesion = document.querySelector("#cerrarSession")
+        cerrar_sesion.addEventListener('click', cerrarSesionMovimientos);
+        function cerrarSesionMovimientos() {
+            cerrarSesion();
+          }
+    </script>
+</body>
+</html>

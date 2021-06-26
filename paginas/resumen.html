@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../iconos/account_balance.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Resumen de Movimientos</title>
+</head>
+<body> 
+    <div id="contenedor">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="logo" class="img-fluid">  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../paginas/home.html">Principal</a>
+                      </li>
+                        <li><a href="../paginas/resumen.html"  class="nav-link active">Resumen</a></li>
+                        <li><a href="../paginas/transferencias.html"  class="nav-link">Transferencias</a></li>
+                        <div class="datos__usuario d-flex flex-row flex-nowrap" id="contenedor_datos_usuarios">
+                           <li><a href="" class="nav-link active"> <div class="d-flex flex-row flex-nowrap">
+                                <p class="etiqueta_datos">|&nbsp;Usuario:&nbsp; </p>
+                                <p id="nombre__usuario" class="valor_datos"></p>
+                            </div></a></li>
+                            <li><a href="" class="nav-link active"> <div class="contenedor_item_datos d-flex flex-row flex-nowrap">
+                                <p class="etiqueta_datos">|&nbsp;N° Cuenta:&nbsp; </p>
+                                <p id="idcuenta__usuario" class="valor_datos"></p>
+                            </div></a></li>
+                            <li><a href="" class="nav-link active"> <div class="contenedor_item_datos d-flex flex-row flex-nowrap">
+                                <p class="etiqueta_datos">|&nbsp;Saldo:&nbsp; </p>
+                                <p id="saldo__usuario" class="valor_datos"></p>
+                            </div></a></li>
+                        </div>
+                        <div id="contenedor__info-user" style="display:inline-flex;">
+                            <div id="imagen__nav"> 
+                                <div id="cerrarSession">
+                                  <button type="button" class="btn btn-light" id="imagen_cerrar_sesion">  <a href="#"  style="text-decoration:none;color: black;">Cerrar sesión</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div id="contenido_tabla">
+            <div id="filtros">
+                <form id="formulario_filtrar" action="">
+                    <input id="input_campo_filtrar" type="text" placeholder="Filtrar por titulo o descripción...">
+                </form>
+                <div class="cancelar_filtro" >
+                    <img  hidden=true src="../iconos/disabled_by_default.png" alt="Imagen Borrar Filtro">
+                    <p hidden=true class="btn btn-danger">Cancelar</p>
+                </div>
+            </div>
+            <div id="seccionPrincipal">
+                <div id="tabla">
+                    <table id="tabla__resumen">
+                    </table>
+                    <div id="contenedor_mostrar_mas">
+                        <button class="btn btn-success" type="submit" id="mostrar_mas"  data-bs-toggle="tooltip" data-bs-placement="right" title="Ingrese a su cuenta">Mostrar más</button>
+                    </div>   
+                </div>
+                <div id="mas__informacion"></div>
+            </div>
+        </div>
+        <footer class="bg-success">
+            <div class="container">
+                <div class="row justify-content-center align-self-center">
+                   <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 pt-2 pb-2 ">     
+                          <img src="../img/clientes.png" alt="" class=" img-fluid rounded float-start">
+                          <img src="../img/digiSeguridad.png" alt="as" class=" img-fluid rounded float-end">
+                          <p class="fs-6 text-center text-white pt-2">© Copyright 2021. BANCO AR</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/resumen.js"></script>
+    <script src="../js/logout.js"></script>
+    <script src="../js/completarCampos.js"></script>
+</body>
+</html>
